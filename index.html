@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .md{
+            border: 2px,solid;
+            width: 30px;
+            height: 40px;
+            margin: 5px;
+        }
+        .md div{
+            border: 2px,solid;
+            margin: 5px;
+        }
+
+      
+
+       ul{
+            display: none;
+            visibility: hidden;
+            
+        }
+
+        .md:hover ~ ul{
+            display: block;
+            visibility: visible;
+        }
+
+
+        
+    </style>
+   
+</head>
+<body>
+    
+    <div class="md">
+        
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <ul>
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Sig in</li>
+        <li>Sig up</li>
+        <li>Contact Us</li>
+    </ul>
+
+</body>
+</html>
